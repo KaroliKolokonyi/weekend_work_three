@@ -4,6 +4,10 @@
 
 def sum_of_range(array)
 
+  of_range = 0
+  result = array.inject(0){|sum,x| sum + x+x}
+
+
 end
 
 # Driver code - don't touch anything below this line.
